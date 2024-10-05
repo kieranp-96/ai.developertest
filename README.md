@@ -13,13 +13,13 @@ The task gives you free rain on how the front end of the application will look, 
 - Data driven from a JSON file or a MongoDB/SQL database
 
 **Share your work:**
-- Set up a repository on Github or BitBucket to host your code so we can pull down the code from there.
+- Set up a repository on Github or any other open access git repository to host your code so we can pull down the code from there.
 - If you are using a database please ensure a copy of it in the repo so we can use and run your application
 - Please share any development/set up notes in a README.md
 
 **Bits of advice:**
 1. Don’t spend too much time on the frontend look and feel. We would like you to spend most of your time on the functionality and ensuring that code is clean, error handled well and working as it should. 
-1. These coding challenges can be very time consuming so we wouldn’t expect you to do any more than half a day on it. Not focusing too much on the styling should save you time.
+1. These coding challenges can be very time consuming so we wouldn’t expect you to do any more than a day/half a day on it. Not focusing too much on the styling should save you time.
 1. Have fun with it, and feel free to add your own touches or extra features (but again only if time allows)
 
 Any questions about the test please do not hesitate to contact joe.fradley@assetinsights.co.uk . 
