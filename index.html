@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI tech interview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-8">
+    <h1 class="text-2xl font-bold mb-4 text-center">Ai Tech test</h1>
+    <div class="mb-4 flex justify-center aling-center gap-10">
+        <input id="name" type="text" placeholder="Name" class="border rounded p-2 mr-2" />
+        <input id="email" type="text" placeholder="Email" class="border rounded p-2 mr-2" />
+        <input id="role" type="text" placeholder="Role" class="border rounded p-2 mr-2" />
+        <button id="addUser" class="bg-blue-500 text-white rounded p-2">Add User</button>
+    </div>
+    <table class="min-w-full bg-white border rounded-lg">
+        <thead class="bg-gray-800 text-white">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="userTable" class="text-gray-700"></tbody>
+    </table>
+
+    <!-- Pop up to edit my user data -->
+    <div id="editModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 hidden items-center justify-center">
+        <div class="bg-white p-8 rounded-lg">
+            <h2 class="text-xl font-bold mb-4">Edit User</h2>
+            <input id="editName" type="text" placeholder="Name" class="border rounded p-2 mb-2 w-full" />
+            <input id="editEmail" type="text" placeholder="Email" class="border rounded p-2 mb-2 w-full" />
+            <input id="editRole" type="text" placeholder="Role" class="border rounded p-2 mb-2 w-full" />
+            <input id="editId" type="hidden" />
+            <div class="flex justify-end">
+                <button id="saveEdit" class="bg-blue-500 text-white rounded p-2 mr-2">Save</button>
+                <button id="cancelEdit" class="bg-gray-300 text-black rounded p-2">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
